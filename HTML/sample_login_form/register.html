@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>REGISTRATION FORM</title>
+</head>
+<body bgcolor="black" align="center">
+    <font color="00A5FF" size="5px">Register Here</font><br><br>
+    <forms>
+        <font color="white">UserName :</font> <input type="text" maxlength="15" placeholder="Enter user name" pattern="[a-zA-Z]+{15}" autofocus required><br><br>
+        <font color="white">Password :</font> <input type="password" placeholder="Enter Password" pattern="[0-9]{1}[a-zA-Z0-9]+[0-9]{1}" minlength="8" maxlength="12"><br><br>
+        <font color="white">Email :</font> <input type="email" placeholder="Enter email"><br><br>
+        <font color="white">Gender :</font> <input type="radio" name="gender"><font color="white">Male</font> <input type="radio" name="gender"><font color="white">Female</font><input type="radio" name="gender"><font color="white">Other</font><br><br>
+        <font color="white">Age(yrs) :</font> <input type="number" min="12" max="60"><br><br>
+        <font color="white">Address :</font> <textarea rows="5" cols="20" placeholder="Enter your address"></textarea><br><br>
+        <font color="white">Company Website :<br><br>Choose Country :</font>
+        <select>
+            <option>India</option>
+            <option>Japan</option>
+            <option>Thailand</option>
+            <option>England</option>
+            <option>Singapore</option>
+            <option>Dubai</option>
+        </select><br><br>
+        <font color="white">Date of Journey : </font><input type="text" placeholder="dd/mm/yyyy"/><br><br>
+        <a href="submit.html"> <input type="submit" size="15" value="submit"></a>
+        <a href="register.html"> <input type="submit" size="15" value="Reset"></a>
+    </forms>
+</body>
+</html>
